@@ -23,7 +23,7 @@ location_dict=\
        "이촌한강공원", "잠실종합운동장", "잠실한강공원"]}
 
 for location_type in tqdm(location_dict.keys()):
-    print(f"{location_type}  : start")
+    print(f"\n{location_type}  : start")
     locations = location_dict[location_type]
     total_dict = {}
     my_api_key = "627562616f666c793131386b78674874"
